@@ -2,7 +2,7 @@ name: Test
 
 on:
   push:
-    branches: [test]
+    branches: [release]
 
 jobs:
   print:
@@ -10,4 +10,4 @@ jobs:
     steps: 
       - name: echo "test"
         shell: bash
-        run: echo "test only in test branch 123"
+        run: echo "test defined in test branch"
