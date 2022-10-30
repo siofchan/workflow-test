@@ -6,4 +6,8 @@ on:
 
 jobs:
   print:
-    run: echo "test"
+    runs-on: ubuntu-latest
+    steps: 
+      - name: echo "test"
+        shell: bash
+        run: echo "test"
