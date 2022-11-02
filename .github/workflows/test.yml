@@ -5,17 +5,9 @@ on:
     branches: [master]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: test
-        shell: bash
-        run: echo "test step 1"
   print:
     runs-on: ubuntu-latest
     steps: 
       - name: echo "test"
         shell: bash
         run: echo "test master branch"
-        with:
-          environment: test
