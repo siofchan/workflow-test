@@ -9,6 +9,8 @@ on:
 
 jobs:
   print:
+    environment:
+      name: ${{ inputs.environment }}
     runs-on: ubuntu-latest
     steps: 
       - name: echo "test"
