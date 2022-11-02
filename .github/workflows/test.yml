@@ -17,4 +17,5 @@ jobs:
       - name: echo "test"
         shell: bash
         run: echo "test master branch"
-        environment: test
+        with:
+          environment: test
