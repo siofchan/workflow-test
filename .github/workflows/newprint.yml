@@ -2,7 +2,7 @@ name: test with env
 
 on:
   push:
-    branches: [master]
+    branches: [test]
 
 jobs:
   test:
