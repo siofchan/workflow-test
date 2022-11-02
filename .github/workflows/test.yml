@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test
-        shell:
+        shell: bash
         run: echo "test step 1"
   print:
     runs-on: ubuntu-latest
