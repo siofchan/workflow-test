@@ -1,4 +1,4 @@
-name: test with env
+name: test with env-new workflow
 
 on:
   push:
