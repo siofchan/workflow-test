@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: test
         shell: bash
-        run: echo "test step 1"
+        run: echo "test-branch"
