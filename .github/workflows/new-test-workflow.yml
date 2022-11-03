@@ -11,8 +11,3 @@ jobs:
       - name: test
         shell: bash
         run: echo "test step 1"
-  printtest:
-    needs: [test]
-    uses: ./.github/workflows/test.yml
-    with:
-      environment: test
